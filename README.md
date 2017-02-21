@@ -11,6 +11,7 @@ npm install @educastellano/proxy
 ## Usage
 
 Useful as a script in your package.json:
+
 ```
 {
     "start": "proxy --url http://mytestserver.com --static app"

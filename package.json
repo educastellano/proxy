@@ -1,13 +1,14 @@
 {
   "name": "@educastellano/proxy",
   "version": "0.1.0",
-  "description": "",
+  "description": "A proxy to bind your apps to an API",
   "main": "index.js",
   "bin": {
     "proxy": "./cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
   },
   "author": "",
   "license": "ISC",

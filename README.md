@@ -1,11 +1,11 @@
 # Proxy
 
-A proxy to bind your apps to an API.
+A proxy to bind your apps to an API during development.
 
 ## Install
 
 ```sh
-npm install @educastellano/proxy
+npm install @educastellano/proxy --save-dev
 ```
 
 ## Usage
